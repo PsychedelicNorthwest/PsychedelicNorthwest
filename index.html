@@ -6,39 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #3f0d12, #a71d31);
-      color: #fff;
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
       text-align: center;
-      padding: 50px;
+      padding: 20px;
     }
+
     h1 {
       font-size: 3em;
-      margin-bottom: 0.3em;
+      margin-bottom: 10px;
     }
+
     p {
-      font-size: 1.3em;
-      margin-bottom: 2em;
+      font-size: 1.2em;
+      margin-bottom: 30px;
     }
-    a {
-      display: inline-block;
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    a.button {
+      background-color: #ffffff;
+      color: #121212;
       padding: 15px 30px;
-      background-color: #fff;
-      color: #3f0d12;
-      font-weight: bold;
       text-decoration: none;
+      font-weight: bold;
       border-radius: 10px;
+      border: 2px solid #ffffff;
       transition: all 0.3s ease;
     }
-    a:hover {
+
+    a.button:hover {
       background-color: #f4a261;
-      color: #fff;
+      color: #ffffff;
+      border-color: #f4a261;
     }
   </style>
 </head>
 <body>
   <h1>Psychedelic PNW</h1>
-  <p>Trippy art. Cryptid gear. Cosmic vibes. Now available on Etsy.</p>
-  <a href="https://www.etsy.com/shop/PsychedelicPNW" target="_blank">Visit the Shop</a>
+  <p>Art from another dimension – cryptids, cosmos, and chaos. Powered by coffee and weird dreams.</p>
+
+  <div class="button-container">
+    <a class="button" href="https://www.ebay.com/usr/pnw.prints" target="_blank">Shop on eBay</a>
+    <a class="button" href="https://www.etsy.com/shop/PsychedelicPNW" target="_blank">Shop on Etsy</a>
+  </div>
 </body>
 </html>
